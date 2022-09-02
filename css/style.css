@@ -117,8 +117,9 @@ footer{
 }
 
 .social-media{
-    width: 40%;
+padding: center;
     color: #fff;
+    padding: 2em;
 
 }
 
@@ -131,7 +132,6 @@ footer{
     font-weight: 500;
 }
 .social-media{
-    width: 50%;
     display: flex;
     justify-content: flex-end;
 
