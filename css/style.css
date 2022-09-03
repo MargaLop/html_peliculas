@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, #fac2ea62 0%, rgba(165, 192, 238, 0.473) 100%), url(../imagenes/portada-inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.contendor-head{
+    padding: 15em;
+    height: 100%;
+    line-height : 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.name-head{
+    padding: 2em;
+    font-size: 2em;
+}
+
 body {
     font-family: 'open sans';
 }
@@ -185,4 +208,8 @@ padding: center;
     .social-media i{
         margin-left: 0;
     }
+}
+
+:root{
+    scroll-behavior: smooth;
 }

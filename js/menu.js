@@ -11,7 +11,9 @@ iconMenu.addEventListener('click', () =>{
 })
 
 window.addEventListener('click', e=>{
-    if (menu.classList.contains('spread') && e.target != menu && e.target != iconMenu){
+    if (menu.classList.contains('spread') 
+        && e.target != menu 
+        && e.target != iconMenu){
         menu.classList.toggle('spread')
     }
 })
