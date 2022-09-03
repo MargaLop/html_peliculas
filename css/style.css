@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* encabezado */
 header{
     height: 100vh;
     background-image: linear-gradient(to top, #fac2ea62 0%, rgba(165, 192, 238, 0.473) 100%), url(../imagenes/portada-inicio.jpg);
@@ -22,34 +23,21 @@ header{
     flex-direction: column;
     color: #fff;
 }
+.username-head{
+    padding: .5em;
+    font-size: 4em;
+}
 .name-head{
-    padding: 2em;
-    font-size: 2em;
+    padding-bottom: 2em;
 }
 
-body {
-    font-family: 'open sans';
-}
-
-.contenedor {
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
+/* body */
 .titulo {
-    color: #642a73;
     font-size: 30px;
-    margin: 25px;
+    padding: 35px;
     text-align: center;
+    color: #66182a;
 
-}
-
-.copy{
-    font-weight: 300;
-    font-size: 25px;
 }
 
 .icon-menu{
@@ -72,7 +60,6 @@ body {
     text-align: justify;
     margin-left: 15%;
     margin-bottom: 5em;
-
 }
 
 .menu-navegacion{
@@ -98,6 +85,10 @@ body {
 .menu-navegacion{
     font-size: 40px;
     margin-bottom: 15px;
+}
+
+.contenedor-father{
+    height: 100vh;
 }
 
 /*footer*/
@@ -180,15 +171,6 @@ padding: center;
     font-size: 30px;
     line-height: 60px;
     right: 0;
-}
-
-.line{
-   width: 90%;
-   max-width: 1200px; 
-   margin: 0 auto;
-   height: 2px;
-   background: #fff;
-   margin-bottom: 60px;
 }
 
 @media screen and (max-width:800px) {
