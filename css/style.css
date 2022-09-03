@@ -26,18 +26,29 @@ header{
 .username-head{
     padding: .5em;
     font-size: 4em;
+    font-family: 'IBM Plex Sans', sans-serif   
 }
+
 .name-head{
     padding-bottom: 2em;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* body */
+
+P{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .titulo {
     font-size: 30px;
     padding: 35px;
     text-align: center;
-    color: #66182a;
-
+    color: #ffb34e;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10em;
 }
 
 .icon-menu{
@@ -60,7 +71,7 @@ header{
     text-align: justify;
     margin-left: 15%;
     margin-bottom: 5em;
-}
+    }
 
 .menu-navegacion{
     position: fixed;
