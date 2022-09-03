@@ -25,7 +25,7 @@ header{
 }
 .username-head{
     padding: .5em;
-    font-size: 4em;
+    font-size: 10px;
     font-family: 'IBM Plex Sans', sans-serif   
 }
 
@@ -42,8 +42,7 @@ P{
     font-weight: bold;
 }
 
-.titulo {
-    font-size: 30px;
+.fade{
     padding: 35px;
     text-align: center;
     color: #ffb34e;
@@ -206,3 +205,4 @@ padding: center;
 :root{
     scroll-behavior: smooth;
 }
+
