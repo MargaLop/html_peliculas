@@ -13,8 +13,9 @@ header{
     background-attachment: fixed;
     background-position: center;
 }
+
 .contendor-head{
-    padding: 15em;
+    padding: 10em;
     height: 100%;
     line-height : 25px;
     display: flex;
@@ -25,13 +26,17 @@ header{
 }
 .username-head{
     padding: .5em;
-    font-size: 10px;
-    font-family: 'IBM Plex Sans', sans-serif   
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 500%;
 }
 
 .name-head{
+    font-size: 190%;
     padding-bottom: 2em;
     font-family: 'IBM Plex Sans', sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* body */
@@ -40,6 +45,7 @@ P{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    text-align: justify;
 }
 
 .fade{
@@ -47,7 +53,9 @@ P{
     text-align: center;
     color: #ffb34e;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 10em;
+    font-size: 900%;
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 .icon-menu{
@@ -136,6 +144,7 @@ footer{
     padding-bottom: 20px;
 }
 
+
 .titulo-final{
     font-size: 20px;
 }
@@ -155,10 +164,10 @@ padding: center;
 .brand+p{
     font-weight: 500;
 }
+
 .social-media{
     display: flex;
     justify-content: flex-end;
-
 }
 
 .social-media-icon{
