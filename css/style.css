@@ -22,21 +22,25 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
-}
-.username-head{
-    padding: .5em;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 500%;
+    color: rgb(202, 144, 241);
 }
 
 .name-head{
-    font-size: 190%;
+    font-size: 210%;
     padding-bottom: 2em;
     font-family: 'IBM Plex Sans', sans-serif;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+svg{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /* body */
@@ -49,13 +53,10 @@ P{
 }
 
 .fade{
-    padding: 35px;
     text-align: center;
     color: #ffb34e;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 900%;
-    border-radius: 100%;
-    overflow: hidden;
 }
 
 .icon-menu{
