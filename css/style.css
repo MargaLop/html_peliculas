@@ -12,37 +12,45 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
 }
 
-
 .contendor-head{
-    padding: 10em;
+    padding: 0;
     height: 100%;
     line-height : 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(202, 144, 241);
+    color: rgb(255, 255, 255);
 }
 
-.name-head{
-    font-size: 210%;
-    padding-bottom: 2em;
+.username-head{
+    font-size: 11vh;
     font-family: 'IBM Plex Sans', sans-serif;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-
-}
-
-svg{
+    justify-content: center;
+    align-items: center;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
+    padding-bottom: 1em;
+ 
+}
+
+.name-head{
+    font-size: 4.2vh;
+    padding-top: 2em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+
 }
 
 /* body */
@@ -142,6 +150,7 @@ footer{
 
 .content-foo h4{
     border: none;
+    color: rgb(255, 255, 255);
 }
 
 .content-foo p{
@@ -154,8 +163,7 @@ footer{
 .titulo-final{
     font-size: 20px;
     text-align: center;
-    
-
+    color: rgb(255, 255, 255);
 }
 
 .social-media{
